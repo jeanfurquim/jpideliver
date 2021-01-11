@@ -31,7 +31,7 @@ public class OrderService {
 		return list.stream().map(x -> new OrderDto(x)).collect(Collectors.toList());
 
 	}
- 
+ //Erro corrigido
 	@Transactional
 	public OrderDto insert(OrderDto dto) {
 		
